@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>title</title>
+
+
+
+    <body>
+        <div class="soshm" id="share"></div>
+        <button id="shareBtn">点击分享</button>
+        <div>
+            1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+        </div>
+        <div>
+            1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+        </div>
+        <div>
+            1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+        </div>
+        <div>
+            1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+        </div>
+        <div>
+            1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+        </div>
+        <div>
+            1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+        </div>
+        <div>
+            1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+        </div>
+        <div>
+            1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+        </div>
+    </body>
+
+</html>
+
+<script src="./soshm-master/dist/soshm.min.js"></script>
+<script>
+    soshm.TZshare('shareBtn', {
+        //  分享的链接，默认使用location.href
+        url: location.href,
+        // 分享的标题，默认使用document.title
+        title: '标题',
+        // 分享的摘要，默认使用<meta name="description" content="">content的值
+        digest: '摘要摘要摘要',
+        // 分享的图片，默认获取本页面第一个img元素的src
+        pic:
+            'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1526272891340&di=10bee1101f0c4c249e64dacba4a6dfc1&imgtype=0&src=http://h.hiphotos.baidu.com/image/pic/item/4afbfbedab64034f3fef554ba3c379310a551d58.jpg',
+        // 默认显示的网站为以下六个个,支持设置的网站有
+        // weixin,weixintimeline,qq,qzone,yixin,weibo,tqq,renren,douban,tieba
+        sites: ['weixin', 'weixintimeline', 'weibo', 'qq', 'qzone']
+
+    })
+</script>
